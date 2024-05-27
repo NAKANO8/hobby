@@ -32,4 +32,6 @@ console.log(unko2.color);
 console.log(window.innerHeight);
 console.log(window.innerWidth);
 window.alert(`Hello world`);
-document.getElementsByTagName(`button`)[0].addEventListener
+document.getElementsByTagName(`button`)[0].addEventListener(`click`,()=> {
+ window.alert(`Hello world`);
+})
